@@ -1,0 +1,104 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- iPad Frame -->
+  <rect width="400" height="300" rx="20" fill="#000000"/>
+  <rect x="3" y="3" width="394" height="294" rx="17" fill="#F2F2F7"/>
+
+  <!-- Status Bar -->
+  <rect x="3" y="3" width="394" height="30" fill="#F2F2F7"/>
+  <text x="15" y="22" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#000000">9:41 AM</text>
+  <circle cx="360" cy="18" r="3" fill="#34C759"/>
+  <rect x="365" y="14" width="20" height="8" rx="2" stroke="#000000" stroke-width="1" fill="none"/>
+  <rect x="367" y="16" width="16" height="4" fill="#34C759"/>
+
+  <!-- Navigation Bar -->
+  <rect x="3" y="33" width="394" height="40" fill="#FFFFFF"/>
+  <text x="15" y="57" font-family="SF Pro Display, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#000000">Simple Flash Notes</text>
+
+  <!-- Split View Container -->
+  <rect x="3" y="73" width="394" height="221" fill="#E5E5EA"/>
+
+  <!-- Sidebar -->
+  <rect x="3" y="73" width="160" height="221" fill="#F8F9FA"/>
+
+  <!-- Search Bar in Sidebar -->
+  <rect x="13" y="83" width="140" height="30" rx="15" fill="#E5E5EA"/>
+  <circle cx="25" cy="98" r="5" fill="#8E8E93"/>
+  <text x="35" y="102" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" fill="#8E8E93">Search folders</text>
+
+  <!-- Expanded Folder Structure -->
+  <!-- Root: Biology (Expanded) -->
+  <rect x="13" y="123" width="140" height="35" rx="6" fill="#FF3B30" fill-opacity="0.1"/>
+  <text x="18" y="138" font-family="SF Pro Display, -apple-system, sans-serif" font-size="10" fill="#8E8E93">▼</text>
+  <rect x="30" y="128" width="20" height="20" rx="3" fill="#FF3B30" fill-opacity="0.3"/>
+  <text x="37" y="140" font-family="SF Pro Display, -apple-system, sans-serif" font-size="10" fill="#FF3B30">🧬</text>
+  <text x="55" y="135" font-family="SF Pro Display, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#000000">Biology</text>
+  <text x="55" y="148" font-family="SF Pro Display, -apple-system, sans-serif" font-size="10" fill="#8E8E93">24 notes</text>
+
+  <!-- Subfolder: Cell Biology -->
+  <rect x="23" y="163" width="130" height="30" rx="4" fill="#FFFFFF"/>
+  <rect x="33" y="168" width="15" height="15" rx="2" fill="#FF3B30" fill-opacity="0.2"/>
+  <text x="38" y="177" font-family="SF Pro Display, -apple-system, sans-serif" font-size="8" fill="#FF3B30">🔬</text>
+  <text x="53" y="175" font-family="SF Pro Display, -apple-system, sans-serif" font-size="11" font-weight="500" fill="#000000">Cell Biology</text>
+  <text x="53" y="185" font-family="SF Pro Display, -apple-system, sans-serif" font-size="9" fill="#8E8E93">8 notes</text>
+
+  <!-- Subfolder: Photosynthesis -->
+  <rect x="23" y="198" width="130" height="30" rx="4" fill="#FFFFFF"/>
+  <rect x="33" y="203" width="15" height="15" rx="2" fill="#34C759" fill-opacity="0.2"/>
+  <text x="38" y="212" font-family="SF Pro Display, -apple-system, sans-serif" font-size="8" fill="#34C759">🌱</text>
+  <text x="53" y="210" font-family="SF Pro Display, -apple-system, sans-serif" font-size="11" font-weight="500" fill="#000000">Photosynthesis</text>
+  <text x="53" y="220" font-family="SF Pro Display, -apple-system, sans-serif" font-size="9" fill="#8E8E93">6 notes</text>
+
+  <!-- Spanish Folder (Collapsed) -->
+  <rect x="13" y="238" width="140" height="30" rx="6" fill="#E5E5EA"/>
+  <text x="18" y="250" font-family="SF Pro Display, -apple-system, sans-serif" font-size="10" fill="#8E8E93">▶</text>
+  <rect x="30" y="243" width="20" height="20" rx="3" fill="#FF9500" fill-opacity="0.3"/>
+  <text x="37" y="255" font-family="SF Pro Display, -apple-system, sans-serif" font-size="10" fill="#FF9500">🇪🇸</text>
+  <text x="55" y="250" font-family="SF Pro Display, -apple-system, sans-serif" font-size="13" font-weight="500" fill="#000000">Spanish</text>
+  <text x="55" y="260" font-family="SF Pro Display, -apple-system, sans-serif" font-size="10" fill="#8E8E93">18 notes</text>
+
+  <!-- Sidebar Divider -->
+  <rect x="163" y="73" width="1" height="221" fill="#C6C6C8"/>
+
+  <!-- Detail View - Cell Biology Folder Contents -->
+  <rect x="164" y="73" width="233" height="221" fill="#FFFFFF"/>
+
+  <!-- Detail Header -->
+  <rect x="164" y="73" width="233" height="40" fill="#F8F9FA"/>
+  <text x="174" y="88" font-family="SF Pro Display, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#000000">Cell Biology</text>
+  <text x="174" y="102" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" fill="#8E8E93">8 notes • Biology folder</text>
+  <circle cx="370" cy="93" r="12" fill="#007AFF"/>
+  <text x="364" y="98" font-family="SF Pro Display, -apple-system, sans-serif" font-size="16" font-weight="400" fill="#FFFFFF">+</text>
+
+  <!-- Notes Grid -->
+  <!-- Note 1: Mitochondria -->
+  <rect x="174" y="123" width="105" height="70" rx="8" fill="#F8F9FA" stroke="#E5E5EA" stroke-width="1"/>
+  <circle cx="190" cy="140" r="8" fill="#FF3B30" fill-opacity="0.2"/>
+  <text x="187" y="144" font-family="SF Pro Display, -apple-system, sans-serif" font-size="8" fill="#FF3B30">⚡</text>
+  <text x="184" y="155" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#000000">Mitochondria</text>
+  <text x="184" y="168" font-family="SF Pro Display, -apple-system, sans-serif" font-size="10" fill="#8E8E93">Powerhouse of cell</text>
+  <text x="184" y="180" font-family="SF Pro Display, -apple-system, sans-serif" font-size="10" fill="#8E8E93">ATP production...</text>
+
+  <!-- Note 2: DNA Structure -->
+  <rect x="287" y="123" width="105" height="70" rx="8" fill="#F8F9FA" stroke="#E5E5EA" stroke-width="1"/>
+  <circle cx="303" cy="140" r="8" fill="#007AFF" fill-opacity="0.2"/>
+  <text x="300" y="144" font-family="SF Pro Display, -apple-system, sans-serif" font-size="8" fill="#007AFF">🧬</text>
+  <text x="297" y="155" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#000000">DNA Structure</text>
+  <text x="297" y="168" font-family="SF Pro Display, -apple-system, sans-serif" font-size="10" fill="#8E8E93">Double helix</text>
+  <text x="297" y="180" font-family="SF Pro Display, -apple-system, sans-serif" font-size="10" fill="#8E8E93">Base pairs...</text>
+
+  <!-- Note 3: Cell Membrane -->
+  <rect x="174" y="203" width="105" height="70" rx="8" fill="#F8F9FA" stroke="#E5E5EA" stroke-width="1"/>
+  <circle cx="190" cy="220" r="8" fill="#34C759" fill-opacity="0.2"/>
+  <text x="187" y="224" font-family="SF Pro Display, -apple-system, sans-serif" font-size="8" fill="#34C759">🔘</text>
+  <text x="184" y="235" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#000000">Cell Membrane</text>
+  <text x="184" y="248" font-family="SF Pro Display, -apple-system, sans-serif" font-size="10" fill="#8E8E93">Selective barrier</text>
+  <text x="184" y="260" font-family="SF Pro Display, -apple-system, sans-serif" font-size="10" fill="#8E8E93">Phospholipid...</text>
+
+  <!-- Note 4: Ribosomes -->
+  <rect x="287" y="203" width="105" height="70" rx="8" fill="#F8F9FA" stroke="#E5E5EA" stroke-width="1"/>
+  <circle cx="303" cy="220" r="8" fill="#FF9500" fill-opacity="0.2"/>
+  <text x="300" y="224" font-family="SF Pro Display, -apple-system, sans-serif" font-size="8" fill="#FF9500">🔸</text>
+  <text x="297" y="235" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#000000">Ribosomes</text>
+  <text x="297" y="248" font-family="SF Pro Display, -apple-system, sans-serif" font-size="10" fill="#8E8E93">Protein synthesis</text>
+  <text x="297" y="260" font-family="SF Pro Display, -apple-system, sans-serif" font-size="10" fill="#8E8E93">RNA translation...</text>
+</svg>

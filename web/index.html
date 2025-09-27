@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Flash Notes - Beautiful Flash Cards for iOS</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/promo.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Simple Flash Notes</h1>
+                    <p class="hero-subtitle">Beautiful, distraction-free flash cards for students who value simplicity</p>
+                    <p class="hero-description">Create, organize, and study with elegant flash cards. No subscriptions, no complexity—just the essential features you need to learn effectively.</p>
+
+                    <div class="cta-buttons">
+                        <a href="#" class="btn btn-primary">Download for iPhone</a>
+                        <a href="#" class="btn btn-secondary">Download for iPad</a>
+                    </div>
+                </div>
+
+                <div class="hero-device">
+                    <div class="device-switcher">
+                        <button class="device-btn active" data-device="iphone">iPhone</button>
+                        <button class="device-btn" data-device="ipad">iPad</button>
+                    </div>
+                    <div class="device-preview">
+                        <div class="device-frame iphone active" id="hero-iphone">
+                            <!-- PLACEHOLDER INSTRUCTIONS - CAPTURE THESE SCREENSHOTS: -->
+                            <!-- iPhone: Main folder view showing colorful folders with notes -->
+                            <img src="assets/images/iphone/hero-screenshot.svg" alt="Simple Flash Notes iPhone interface" class="device-screenshot">
+                        </div>
+                        <div class="device-frame ipad" id="hero-ipad">
+                            <!-- iPad: Split view showing folder sidebar and note detail -->
+                            <img src="assets/images/ipad/hero-screenshot.svg" alt="Simple Flash Notes iPad interface" class="device-screenshot">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Showcase (Infinite Scroll Area) -->
+    <section class="features-showcase">
+        <div class="container">
+            <h2 class="section-title">Everything you need to study smarter</h2>
+
+            <!-- Feature 1: Note Creation -->
+            <div class="feature" data-feature="creation">
+                <div class="feature-content">
+                    <div class="feature-text">
+                        <h3 class="feature-title">Create Rich Flash Cards</h3>
+                        <p class="feature-description">Add text and images to both sides of your cards. Take photos directly in the app or choose from your photo library. Clean, distraction-free editing keeps you focused on learning.</p>
+                        <ul class="feature-list">
+                            <li>Text and image support on both sides</li>
+                            <li>Camera integration for instant capture</li>
+                            <li>Simple, focused editing interface</li>
+                            <li>Auto-save to never lose your work</li>
+                        </ul>
+                    </div>
+                    <div class="feature-device">
+                        <div class="device-frame iphone active">
+                            <!-- iPhone: Note creation/editing screen -->
+                            <img src="assets/images/iphone/feature-creation.svg" alt="Create flash cards" class="device-screenshot">
+                        </div>
+                        <div class="device-frame ipad">
+                            <!-- iPad: Note creation in split view -->
+                            <img src="assets/images/ipad/feature-creation.svg" alt="Create flash cards on iPad" class="device-screenshot">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 2: Organization -->
+            <div class="feature" data-feature="organization">
+                <div class="feature-content reverse">
+                    <div class="feature-text">
+                        <h3 class="feature-title">Smart Organization</h3>
+                        <p class="feature-description">Organize your notes with unlimited folder nesting. Color-code subjects, add custom icons, and find everything instantly with powerful search.</p>
+                        <ul class="feature-list">
+                            <li>Unlimited folder depth for complex subjects</li>
+                            <li>Color themes and custom icons</li>
+                            <li>Real-time search across all content</li>
+                            <li>Drag & drop reordering</li>
+                        </ul>
+                    </div>
+                    <div class="feature-device">
+                        <div class="device-frame iphone active">
+                            <!-- iPhone: Folder organization view -->
+                            <img src="assets/images/iphone/feature-organization.svg" alt="Organize with folders" class="device-screenshot">
+                        </div>
+                        <div class="device-frame ipad">
+                            <!-- iPad: Folder organization in sidebar -->
+                            <img src="assets/images/ipad/feature-organization.svg" alt="Organize with folders on iPad" class="device-screenshot">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 3: Study Modes -->
+            <div class="feature" data-feature="study">
+                <div class="feature-content">
+                    <div class="feature-text">
+                        <h3 class="feature-title">Powerful Study Modes</h3>
+                        <p class="feature-description">Choose between Practice mode for review or Test mode for self-assessment. Timer challenges and progress tracking help you study more effectively.</p>
+                        <ul class="feature-list">
+                            <li>Practice mode: See both sides for review</li>
+                            <li>Test mode: Quiz yourself with timers</li>
+                            <li>Progress statistics and tracking</li>
+                            <li>Confidence level monitoring</li>
+                        </ul>
+                    </div>
+                    <div class="feature-device">
+                        <div class="device-frame iphone active">
+                            <!-- iPhone: Study mode interface -->
+                            <img src="assets/images/iphone/feature-study.svg" alt="Study modes" class="device-screenshot">
+                        </div>
+                        <div class="device-frame ipad">
+                            <!-- iPad: Study mode interface -->
+                            <img src="assets/images/ipad/feature-study.svg" alt="Study modes on iPad" class="device-screenshot">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 4: Text-to-Speech -->
+            <div class="feature" data-feature="tts">
+                <div class="feature-content reverse">
+                    <div class="feature-text">
+                        <h3 class="feature-title">Listen While You Learn</h3>
+                        <p class="feature-description">Built-in text-to-speech reads your cards aloud. Perfect for auditory learners or hands-free studying. Customize voice, speed, and pitch to your preference.</p>
+                        <ul class="feature-list">
+                            <li>High-quality text-to-speech engine</li>
+                            <li>Multiple voice options and languages</li>
+                            <li>Adjustable speed and pitch controls</li>
+                            <li>Hands-free studying capability</li>
+                        </ul>
+                    </div>
+                    <div class="feature-device">
+                        <div class="device-frame iphone active">
+                            <!-- iPhone: TTS controls visible -->
+                            <img src="assets/images/iphone/feature-tts.svg" alt="Text-to-speech feature" class="device-screenshot">
+                        </div>
+                        <div class="device-frame ipad">
+                            <!-- iPad: TTS settings page -->
+                            <img src="assets/images/ipad/feature-tts.svg" alt="Text-to-speech on iPad" class="device-screenshot">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 5: Sync & Share -->
+            <div class="feature" data-feature="sync">
+                <div class="feature-content">
+                    <div class="feature-text">
+                        <h3 class="feature-title">Sync & Share Seamlessly</h3>
+                        <p class="feature-description">CloudKit sync keeps your cards updated across all your devices. Share entire folders with friends via AirDrop—perfect for study groups.</p>
+                        <ul class="feature-list">
+                            <li>Automatic iCloud synchronization</li>
+                            <li>Works offline with smart conflict resolution</li>
+                            <li>Share folders via AirDrop</li>
+                            <li>Import shared collections instantly</li>
+                        </ul>
+                    </div>
+                    <div class="feature-device">
+                        <div class="device-frame iphone active">
+                            <!-- iPhone: CloudKit sync settings -->
+                            <img src="assets/images/iphone/feature-sync.svg" alt="Sync and share" class="device-screenshot">
+                        </div>
+                        <div class="device-frame ipad">
+                            <!-- iPad: Share sheet for folder export -->
+                            <img src="assets/images/ipad/feature-sync.svg" alt="Sync and share on iPad" class="device-screenshot">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials/Reviews -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Students love Simple Flash Notes</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Finally, a flash card app that doesn't get in the way. Clean design and just the features I need for studying."</p>
+                    <p class="testimonial-author">— Sarah M., College Student</p>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"The text-to-speech feature is a game changer. I can study while commuting or working out."</p>
+                    <p class="testimonial-author">— David L., Medical Student</p>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Love that it syncs across my iPhone and iPad. No subscription fees is a huge plus!"</p>
+                    <p class="testimonial-author">— Emily R., High School Student</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download">
+        <div class="container">
+            <div class="download-content">
+                <h2 class="download-title">Start studying smarter today</h2>
+                <p class="download-subtitle">Join thousands of students who've simplified their studying with Simple Flash Notes</p>
+
+                <div class="app-store-badges">
+                    <a href="#" class="app-store-badge">
+                        <img src="assets/images/app-store-badge.svg" alt="Download on the App Store">
+                    </a>
+                </div>
+
+                <div class="download-features">
+                    <div class="download-feature">
+                        <span class="download-icon">✓</span>
+                        <span>No subscription required</span>
+                    </div>
+                    <div class="download-feature">
+                        <span class="download-icon">✓</span>
+                        <span>Works offline</span>
+                    </div>
+                    <div class="download-feature">
+                        <span class="download-icon">✓</span>
+                        <span>iPhone & iPad compatible</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Simple Flash Notes</h4>
+                    <p>Beautiful, distraction-free flash cards for effective learning.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <a href="guide.html">User Guide</a>
+                    <a href="#">Contact Support</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Simple Flash Notes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/promo.js"></script>
+</body>
+</html>

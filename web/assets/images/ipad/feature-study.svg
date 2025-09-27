@@ -1,0 +1,71 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- iPad Frame -->
+  <rect width="400" height="300" rx="20" fill="#000000"/>
+  <rect x="3" y="3" width="394" height="294" rx="17" fill="#F2F2F7"/>
+
+  <!-- Status Bar -->
+  <rect x="3" y="3" width="394" height="30" fill="#F2F2F7"/>
+  <text x="15" y="22" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#000000">9:41 AM</text>
+  <circle cx="360" cy="18" r="3" fill="#34C759"/>
+  <rect x="365" y="14" width="20" height="8" rx="2" stroke="#000000" stroke-width="1" fill="none"/>
+  <rect x="367" y="16" width="16" height="4" fill="#34C759"/>
+
+  <!-- Navigation Bar -->
+  <rect x="3" y="33" width="394" height="40" fill="#FFFFFF"/>
+  <text x="15" y="50" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" font-weight="400" fill="#007AFF">Close</text>
+  <text x="200" y="57" font-family="SF Pro Display, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#000000" text-anchor="middle">Test Mode - Biology</text>
+  <text x="370" y="50" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" font-weight="400" fill="#007AFF" text-anchor="end">⋯</text>
+
+  <!-- Progress Section -->
+  <rect x="20" y="83" width="360" height="40" fill="#F8F9FA"/>
+
+  <!-- Progress Bar -->
+  <rect x="30" y="93" width="340" height="6" rx="3" fill="#E5E5EA"/>
+  <rect x="30" y="93" width="136" height="6" rx="3" fill="#007AFF"/>
+
+  <!-- Progress Text -->
+  <text x="30" y="115" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#8E8E93">3 of 8 completed</text>
+  <text x="340" y="115" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#8E8E93" text-anchor="end">5 remaining</text>
+
+  <!-- Timer Section -->
+  <rect x="20" y="133" width="360" height="35" rx="17" fill="#FF3B30" fill-opacity="0.1"/>
+  <circle cx="40" cy="150" r="10" fill="#FF3B30"/>
+  <text x="35" y="155" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">⏱</text>
+  <text x="60" y="157" font-family="SF Pro Display, -apple-system, sans-serif" font-size="18" font-weight="700" fill="#FF3B30">12s</text>
+  <text x="320" y="155" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#8E8E93" text-anchor="end">Normal difficulty</text>
+
+  <!-- Flashcard Area -->
+  <rect x="60" y="183" width="280" height="80" rx="12" fill="#FFFFFF" stroke="#007AFF" stroke-width="2"/>
+
+  <!-- Card Header -->
+  <text x="75" y="200" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="500" fill="#8E8E93">Question</text>
+
+  <!-- Card Content -->
+  <text x="200" y="225" font-family="SF Pro Display, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#000000" text-anchor="middle">What organelle is known as the</text>
+  <text x="200" y="245" font-family="SF Pro Display, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#000000" text-anchor="middle">"powerhouse of the cell"?</text>
+
+  <!-- Action Buttons -->
+  <rect x="80" y="275" width="110" height="40" rx="20" fill="#007AFF"/>
+  <text x="135" y="298" font-family="SF Pro Display, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">Reveal Answer</text>
+
+  <rect x="210" y="275" width="110" height="40" rx="20" fill="#E5E5EA"/>
+  <text x="265" y="298" font-family="SF Pro Display, -apple-system, sans-serif" font-size="16" font-weight="500" fill="#8E8E93" text-anchor="middle">Skip</text>
+
+  <!-- Stats Panel (Right Side) -->
+  <rect x="350" y="183" width="45" height="80" rx="8" fill="#F8F9FA"/>
+  <text x="372" y="200" font-family="SF Pro Display, -apple-system, sans-serif" font-size="10" fill="#8E8E93" text-anchor="middle">Stats</text>
+
+  <!-- Mini progress circles -->
+  <circle cx="365" cy="215" r="6" fill="#34C759"/>
+  <text x="362" y="218" font-family="SF Pro Display, -apple-system, sans-serif" font-size="8" font-weight="600" fill="#FFFFFF">✓</text>
+
+  <circle cx="380" cy="215" r="6" fill="#34C759"/>
+  <text x="377" y="218" font-family="SF Pro Display, -apple-system, sans-serif" font-size="8" font-weight="600" fill="#FFFFFF">✓</text>
+
+  <circle cx="365" cy="235" r="6" fill="#FF3B30"/>
+  <text x="362" y="238" font-family="SF Pro Display, -apple-system, sans-serif" font-size="8" font-weight="600" fill="#FFFFFF">✗</text>
+
+  <circle cx="380" cy="235" r="6" fill="#E5E5EA"/>
+  <circle cx="365" cy="250" r="6" fill="#E5E5EA"/>
+  <circle cx="380" cy="250" r="6" fill="#E5E5EA"/>
+</svg>

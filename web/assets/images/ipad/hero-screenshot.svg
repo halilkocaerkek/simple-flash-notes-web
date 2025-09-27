@@ -1,0 +1,91 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- iPad Frame -->
+  <rect width="400" height="300" rx="20" fill="#000000"/>
+  <rect x="3" y="3" width="394" height="294" rx="17" fill="#F2F2F7"/>
+
+  <!-- Status Bar -->
+  <rect x="3" y="3" width="394" height="30" fill="#F2F2F7"/>
+  <text x="15" y="22" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#000000">9:41 AM</text>
+  <circle cx="360" cy="18" r="3" fill="#34C759"/>
+  <rect x="365" y="14" width="20" height="8" rx="2" stroke="#000000" stroke-width="1" fill="none"/>
+  <rect x="367" y="16" width="16" height="4" fill="#34C759"/>
+
+  <!-- Navigation Bar -->
+  <rect x="3" y="33" width="394" height="40" fill="#FFFFFF"/>
+  <text x="15" y="57" font-family="SF Pro Display, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#000000">Simple Flash Notes</text>
+  <circle cx="370" cy="53" r="15" fill="#007AFF"/>
+  <text x="363" y="59" font-family="SF Pro Display, -apple-system, sans-serif" font-size="20" font-weight="400" fill="#FFFFFF">+</text>
+
+  <!-- Split View Container -->
+  <rect x="3" y="73" width="394" height="221" fill="#E5E5EA"/>
+
+  <!-- Sidebar -->
+  <rect x="3" y="73" width="160" height="221" fill="#F8F9FA"/>
+
+  <!-- Search Bar in Sidebar -->
+  <rect x="13" y="83" width="140" height="30" rx="15" fill="#E5E5EA"/>
+  <circle cx="25" cy="98" r="5" fill="#8E8E93"/>
+  <text x="35" y="102" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" fill="#8E8E93">Search</text>
+
+  <!-- Folder List in Sidebar -->
+  <!-- Biology Folder -->
+  <rect x="13" y="123" width="140" height="45" rx="8" fill="#FFFFFF"/>
+  <rect x="18" y="128" width="25" height="25" rx="4" fill="#FF3B30" fill-opacity="0.2"/>
+  <text x="28" y="143" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#FF3B30">🧬</text>
+  <text x="50" y="138" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#000000">Biology</text>
+  <text x="50" y="152" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" fill="#8E8E93">24 notes</text>
+
+  <!-- Spanish Folder -->
+  <rect x="13" y="173" width="140" height="45" rx="8" fill="#E5E5EA"/>
+  <rect x="18" y="178" width="25" height="25" rx="4" fill="#FF9500" fill-opacity="0.2"/>
+  <text x="28" y="193" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#FF9500">🇪🇸</text>
+  <text x="50" y="188" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#000000">Spanish</text>
+  <text x="50" y="202" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" fill="#8E8E93">18 notes</text>
+
+  <!-- Math Folder -->
+  <rect x="13" y="223" width="140" height="45" rx="8" fill="#E5E5EA"/>
+  <rect x="18" y="228" width="25" height="25" rx="4" fill="#007AFF" fill-opacity="0.2"/>
+  <text x="28" y="243" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#007AFF">📐</text>
+  <text x="50" y="238" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#000000">Math</text>
+  <text x="50" y="252" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" fill="#8E8E93">12 notes</text>
+
+  <!-- Sidebar Divider -->
+  <rect x="163" y="73" width="1" height="221" fill="#C6C6C8"/>
+
+  <!-- Detail View -->
+  <rect x="164" y="73" width="233" height="221" fill="#FFFFFF"/>
+
+  <!-- Detail Header -->
+  <rect x="164" y="73" width="233" height="40" fill="#F8F9FA"/>
+  <text x="174" y="97" font-family="SF Pro Display, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#000000">Biology</text>
+  <circle cx="370" cy="93" r="12" fill="#007AFF"/>
+  <text x="364" y="98" font-family="SF Pro Display, -apple-system, sans-serif" font-size="16" font-weight="400" fill="#FFFFFF">+</text>
+
+  <!-- Note Detail View -->
+  <rect x="174" y="123" width="213" height="160" rx="12" fill="#F8F9FA"/>
+
+  <!-- Note Card -->
+  <rect x="184" y="133" width="193" height="140" rx="8" fill="#FFFFFF" stroke="#007AFF" stroke-width="1"/>
+
+  <!-- Front Side -->
+  <text x="194" y="150" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#007AFF">Front</text>
+  <circle cx="350" cy="146" r="8" fill="#007AFF"/>
+  <text x="346" y="150" font-family="SF Pro Display, -apple-system, sans-serif" font-size="10" fill="#FFFFFF">🔊</text>
+
+  <text x="194" y="170" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#000000">What is photosynthesis?</text>
+
+  <!-- Image placeholder -->
+  <rect x="194" y="180" width="60" height="40" rx="4" fill="#E5E5EA"/>
+  <circle cx="224" cy="200" r="8" fill="#FFFFFF"/>
+  <text x="220" y="204" font-family="SF Pro Display, -apple-system, sans-serif" font-size="8" fill="#8E8E93">🌱</text>
+
+  <!-- Divider -->
+  <rect x="194" y="230" width="173" height="1" fill="#E5E5EA"/>
+
+  <!-- Back Side -->
+  <text x="194" y="245" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#007AFF">Back</text>
+  <circle cx="350" cy="241" r="8" fill="#E5E5EA"/>
+  <text x="346" y="245" font-family="SF Pro Display, -apple-system, sans-serif" font-size="10" fill="#8E8E93">🔊</text>
+
+  <text x="194" y="260" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" fill="#000000">Process plants use to convert light...</text>
+</svg>

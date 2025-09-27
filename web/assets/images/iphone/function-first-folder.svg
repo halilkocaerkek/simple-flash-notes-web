@@ -1,0 +1,96 @@
+<svg width="250" height="541" viewBox="0 0 250 541" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- iPhone Frame -->
+  <rect width="250" height="541" rx="25" fill="#000000"/>
+  <rect x="5" y="5" width="240" height="531" rx="20" fill="#F2F2F7"/>
+
+  <!-- Status Bar -->
+  <rect x="5" y="5" width="240" height="44" fill="#F2F2F7"/>
+  <text x="25" y="28" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#000000">9:41</text>
+  <circle cx="210" cy="25" r="3" fill="#34C759"/>
+  <rect x="215" y="20" width="15" height="8" rx="2" stroke="#000000" stroke-width="1" fill="none"/>
+  <rect x="217" y="22" width="11" height="4" fill="#34C759"/>
+
+  <!-- Navigation Bar -->
+  <rect x="5" y="49" width="240" height="44" fill="#FFFFFF"/>
+  <text x="20" y="68" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#007AFF">Cancel</text>
+  <text x="125" y="75" font-family="SF Pro Display, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#000000" text-anchor="middle">New Folder</text>
+  <text x="220" y="68" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#007AFF" text-anchor="end">Create</text>
+
+  <!-- Form Content -->
+  <rect x="15" y="103" width="220" height="400" fill="#FFFFFF"/>
+
+  <!-- Folder Details Section -->
+  <text x="25" y="125" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#8E8E93">FOLDER DETAILS</text>
+
+  <!-- Name Input -->
+  <rect x="25" y="135" width="200" height="40" rx="8" fill="#F8F9FA" stroke="#E5E5EA" stroke-width="1"/>
+  <text x="35" y="158" font-family="SF Pro Display, -apple-system, sans-serif" font-size="16" fill="#000000">Biology</text>
+
+  <!-- Appearance Section -->
+  <text x="25" y="195" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#8E8E93">APPEARANCE</text>
+
+  <!-- Color Section -->
+  <text x="25" y="215" font-family="SF Pro Display, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#000000">Color</text>
+
+  <!-- Color Picker Grid -->
+  <circle cx="45" cy="235" r="12" fill="#007AFF" stroke="#000000" stroke-width="2"/>
+  <circle cx="75" cy="235" r="12" fill="#FF3B30"/>
+  <circle cx="105" cy="235" r="12" fill="#34C759"/>
+  <circle cx="135" cy="235" r="12" fill="#FF9500"/>
+  <circle cx="165" cy="235" r="12" fill="#5856D6"/>
+
+  <circle cx="45" cy="265" r="12" fill="#FF2D92"/>
+  <circle cx="75" cy="265" r="12" fill="#FFCC00"/>
+  <circle cx="105" cy="265" r="12" fill="#5AC8FA"/>
+  <circle cx="135" cy="265" r="12" fill="#AF52DE"/>
+  <circle cx="165" cy="265" r="12" fill="#30D158"/>
+
+  <!-- Icon Section -->
+  <text x="25" y="305" font-family="SF Pro Display, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#000000">Icon</text>
+
+  <!-- Icon Grid -->
+  <rect x="35" y="315" width="30" height="30" rx="15" fill="#007AFF" fill-opacity="0.1"/>
+  <text x="47" y="333" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#007AFF">📁</text>
+
+  <rect x="75" y="315" width="30" height="30" rx="15" fill="#E5E5EA" stroke="#007AFF" stroke-width="2"/>
+  <text x="87" y="333" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#000000">🧬</text>
+
+  <rect x="115" y="315" width="30" height="30" rx="15" fill="#E5E5EA"/>
+  <text x="127" y="333" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#000000">📚</text>
+
+  <rect x="155" y="315" width="30" height="30" rx="15" fill="#E5E5EA"/>
+  <text x="167" y="333" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#000000">🎓</text>
+
+  <rect x="195" y="315" width="30" height="30" rx="15" fill="#E5E5EA"/>
+  <text x="207" y="333" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#000000">🧠</text>
+
+  <!-- Second row of icons -->
+  <rect x="35" y="355" width="30" height="30" rx="15" fill="#E5E5EA"/>
+  <text x="47" y="373" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#000000">💡</text>
+
+  <rect x="75" y="355" width="30" height="30" rx="15" fill="#E5E5EA"/>
+  <text x="87" y="373" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#000000">⭐</text>
+
+  <rect x="115" y="355" width="30" height="30" rx="15" fill="#E5E5EA"/>
+  <text x="127" y="373" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#000000">❤️</text>
+
+  <rect x="155" y="355" width="30" height="30" rx="15" fill="#E5E5EA"/>
+  <text x="167" y="373" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#000000">🔥</text>
+
+  <rect x="195" y="355" width="30" height="30" rx="15" fill="#E5E5EA"/>
+  <text x="207" y="373" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#000000">🍃</text>
+
+  <!-- Parent Folder Section -->
+  <text x="25" y="415" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#8E8E93">PARENT FOLDER</text>
+
+  <!-- Root Level Option -->
+  <rect x="25" y="425" width="200" height="40" rx="8" fill="#007AFF" fill-opacity="0.1"/>
+  <text x="35" y="440" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#000000">📁</text>
+  <text x="55" y="440" font-family="SF Pro Display, -apple-system, sans-serif" font-size="16" fill="#000000">None (Root Level)</text>
+  <text x="205" y="440" font-family="SF Pro Display, -apple-system, sans-serif" font-size="16" fill="#007AFF" text-anchor="end">✓</text>
+
+  <!-- Tab Bar -->
+  <rect x="5" y="492" width="240" height="44" fill="#F2F2F7"/>
+  <rect x="5" y="492" width="240" height="1" fill="#C6C6C8"/>
+  <text x="120" y="520" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#007AFF" text-anchor="middle">New Folder</text>
+</svg>

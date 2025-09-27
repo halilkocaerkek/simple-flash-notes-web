@@ -1,0 +1,78 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- iPad Frame -->
+  <rect width="400" height="300" rx="20" fill="#000000"/>
+  <rect x="3" y="3" width="394" height="294" rx="17" fill="#F2F2F7"/>
+
+  <!-- Status Bar -->
+  <rect x="3" y="3" width="394" height="30" fill="#F2F2F7"/>
+  <text x="15" y="22" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#000000">9:41 AM</text>
+  <circle cx="360" cy="18" r="3" fill="#34C759"/>
+  <rect x="365" y="14" width="20" height="8" rx="2" stroke="#000000" stroke-width="1" fill="none"/>
+  <rect x="367" y="16" width="16" height="4" fill="#34C759"/>
+
+  <!-- Navigation Bar -->
+  <rect x="3" y="33" width="394" height="40" fill="#FFFFFF"/>
+  <text x="15" y="50" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" font-weight="400" fill="#007AFF">Close</text>
+  <text x="200" y="57" font-family="SF Pro Display, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#000000" text-anchor="middle">TTS Settings</text>
+  <text x="370" y="50" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#007AFF" text-anchor="end">Done</text>
+
+  <!-- Settings Content -->
+  <rect x="20" y="90" width="360" height="190" fill="#FFFFFF"/>
+
+  <!-- Voice Selection Section -->
+  <text x="30" y="115" font-family="SF Pro Display, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#000000">Voice Selection</text>
+
+  <!-- Voice Options -->
+  <rect x="30" y="125" width="340" height="40" rx="8" fill="#F8F9FA"/>
+  <text x="40" y="145" font-family="SF Pro Display, -apple-system, sans-serif" font-size="16" fill="#000000">Samantha (US English)</text>
+  <circle cx="350" cy="145" r="8" fill="#007AFF"/>
+  <circle cx="350" cy="145" r="4" fill="#FFFFFF"/>
+
+  <!-- Speech Rate Section -->
+  <text x="30" y="185" font-family="SF Pro Display, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#000000">Speech Rate</text>
+
+  <!-- Rate Slider -->
+  <rect x="30" y="195" width="280" height="30" fill="transparent"/>
+  <rect x="40" y="205" width="260" height="4" rx="2" fill="#E5E5EA"/>
+  <rect x="40" y="205" width="130" height="4" rx="2" fill="#007AFF"/>
+  <circle cx="170" cy="207" r="12" fill="#007AFF"/>
+  <circle cx="170" cy="207" r="8" fill="#FFFFFF"/>
+
+  <text x="40" y="225" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" fill="#8E8E93">Slow</text>
+  <text x="280" y="225" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" fill="#8E8E93" text-anchor="end">Fast</text>
+
+  <!-- Test Button -->
+  <rect x="320" y="195" width="50" height="30" rx="15" fill="#007AFF"/>
+  <text x="345" y="213" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle">Test</text>
+
+  <!-- Pitch Section -->
+  <text x="30" y="255" font-family="SF Pro Display, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#000000">Pitch</text>
+
+  <!-- Pitch Slider -->
+  <rect x="30" y="265" width="280" height="30" fill="transparent"/>
+  <rect x="40" y="275" width="260" height="4" rx="2" fill="#E5E5EA"/>
+  <rect x="40" y="275" width="130" height="4" rx="2" fill="#007AFF"/>
+  <circle cx="170" cy="277" r="12" fill="#007AFF"/>
+  <circle cx="170" cy="277" r="8" fill="#FFFFFF"/>
+
+  <text x="40" y="295" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" fill="#8E8E93">Low</text>
+  <text x="280" y="295" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" fill="#8E8E93" text-anchor="end">High</text>
+
+  <!-- Test Button for Pitch -->
+  <rect x="320" y="265" width="50" height="30" rx="15" fill="#007AFF"/>
+  <text x="345" y="283" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle">Test</text>
+
+  <!-- Preview Text Area -->
+  <rect x="30" y="305" width="340" height="60" rx="8" fill="#F8F9FA" stroke="#E5E5EA" stroke-width="1"/>
+  <text x="40" y="325" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#8E8E93">Preview Text:</text>
+  <text x="40" y="345" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#000000">"This is a sample of how your flash cards will sound"</text>
+
+  <!-- Play Button -->
+  <circle cx="320" cy="335" r="15" fill="#007AFF"/>
+  <path d="M315 330 L315 340 L325 335 Z" fill="#FFFFFF"/>
+
+  <!-- Sound waves animation -->
+  <circle cx="345" cy="335" r="8" fill="none" stroke="#007AFF" stroke-width="1" opacity="0.6"/>
+  <circle cx="345" cy="335" r="12" fill="none" stroke="#007AFF" stroke-width="1" opacity="0.3"/>
+  <circle cx="345" cy="335" r="16" fill="none" stroke="#007AFF" stroke-width="1" opacity="0.1"/>
+</svg>

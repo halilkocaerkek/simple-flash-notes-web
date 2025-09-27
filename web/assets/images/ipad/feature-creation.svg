@@ -1,0 +1,57 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- iPad Frame -->
+  <rect width="400" height="300" rx="20" fill="#000000"/>
+  <rect x="3" y="3" width="394" height="294" rx="17" fill="#F2F2F7"/>
+
+  <!-- Status Bar -->
+  <rect x="3" y="3" width="394" height="30" fill="#F2F2F7"/>
+  <text x="15" y="22" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#000000">9:41 AM</text>
+  <circle cx="360" cy="18" r="3" fill="#34C759"/>
+  <rect x="365" y="14" width="20" height="8" rx="2" stroke="#000000" stroke-width="1" fill="none"/>
+  <rect x="367" y="16" width="16" height="4" fill="#34C759"/>
+
+  <!-- Navigation Bar -->
+  <rect x="3" y="33" width="394" height="40" fill="#FFFFFF"/>
+  <text x="15" y="50" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" font-weight="400" fill="#007AFF">Back</text>
+  <text x="200" y="57" font-family="SF Pro Display, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#000000" text-anchor="middle">Edit Note</text>
+  <text x="370" y="50" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#007AFF" text-anchor="end">Save</text>
+
+  <!-- Main Edit Area -->
+  <rect x="20" y="90" width="360" height="190" fill="#FFFFFF"/>
+
+  <!-- Front Side Section -->
+  <text x="30" y="110" font-family="SF Pro Display, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#007AFF">Front</text>
+  <rect x="320" y="95" width="50" height="25" rx="12" fill="#007AFF"/>
+  <text x="345" y="110" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="500" fill="#FFFFFF" text-anchor="middle">Add Image</text>
+
+  <!-- Front Editor -->
+  <rect x="30" y="120" width="340" height="60" rx="8" fill="#F8F9FA" stroke="#E5E5EA" stroke-width="1"/>
+  <text x="40" y="140" font-family="SF Pro Display, -apple-system, sans-serif" font-size="16" fill="#000000">What is the process of photosynthesis?</text>
+
+  <!-- Image Area -->
+  <rect x="250" y="130" width="110" height="40" rx="6" fill="#E5E5EA"/>
+  <circle cx="305" cy="150" r="10" fill="#FFFFFF"/>
+  <text x="300" y="155" font-family="SF Pro Display, -apple-system, sans-serif" font-size="10" fill="#8E8E93">📷</text>
+
+  <!-- Divider -->
+  <rect x="30" y="190" width="340" height="1" fill="#E5E5EA"/>
+
+  <!-- Back Side Section -->
+  <text x="30" y="210" font-family="SF Pro Display, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#007AFF">Back</text>
+  <rect x="320" y="195" width="50" height="25" rx="12" fill="#007AFF"/>
+  <text x="345" y="210" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="500" fill="#FFFFFF" text-anchor="middle">Add Image</text>
+
+  <!-- Back Editor -->
+  <rect x="30" y="220" width="340" height="50" rx="8" fill="#F8F9FA" stroke="#E5E5EA" stroke-width="1"/>
+  <text x="40" y="240" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#000000">Photosynthesis is the process by which plants convert light energy,</text>
+  <text x="40" y="255" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#000000">carbon dioxide, and water into glucose and oxygen.</text>
+
+  <!-- Floating Toolbar -->
+  <rect x="140" y="285" width="120" height="35" rx="17" fill="#000000" fill-opacity="0.8"/>
+  <text x="155" y="298" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="500" fill="#FFFFFF">B</text>
+  <text x="175" y="298" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="500" fill="#FFFFFF" font-style="italic">I</text>
+  <text x="190" y="298" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="500" fill="#FFFFFF">U</text>
+  <circle cx="220" cy="302" r="8" fill="transparent" stroke="#FFFFFF" stroke-width="1"/>
+  <text x="216" y="306" font-family="SF Pro Display, -apple-system, sans-serif" font-size="10" fill="#FFFFFF">A</text>
+  <text x="240" y="298" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="500" fill="#FFFFFF">•</text>
+</svg>

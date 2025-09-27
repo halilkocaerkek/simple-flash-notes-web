@@ -1,0 +1,75 @@
+<svg width="250" height="541" viewBox="0 0 250 541" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- iPhone Frame -->
+  <rect width="250" height="541" rx="25" fill="#000000"/>
+  <rect x="5" y="5" width="240" height="531" rx="20" fill="#F2F2F7"/>
+
+  <!-- Status Bar -->
+  <rect x="5" y="5" width="240" height="44" fill="#F2F2F7"/>
+  <text x="25" y="28" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#000000">9:41</text>
+  <circle cx="210" cy="25" r="3" fill="#34C759"/>
+  <rect x="215" y="20" width="15" height="8" rx="2" stroke="#000000" stroke-width="1" fill="none"/>
+  <rect x="217" y="22" width="11" height="4" fill="#34C759"/>
+
+  <!-- Navigation Bar -->
+  <rect x="5" y="49" width="240" height="44" fill="#FFFFFF"/>
+  <text x="20" y="68" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#007AFF">Back</text>
+  <text x="125" y="75" font-family="SF Pro Display, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#000000" text-anchor="middle">DNA Structure</text>
+  <text x="220" y="68" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#007AFF" text-anchor="end">Edit</text>
+
+  <!-- Front Side -->
+  <rect x="15" y="103" width="220" height="150" rx="12" fill="#007AFF" fill-opacity="0.1"/>
+
+  <!-- Front Header -->
+  <rect x="25" y="113" width="200" height="30" fill="transparent"/>
+  <text x="30" y="130" font-family="SF Pro Display, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#007AFF">Front</text>
+
+  <!-- TTS Button -->
+  <circle cx="200" cy="125" r="12" fill="#007AFF"/>
+  <path d="M195 121 L195 129 L198 129 L202 125 L202 127 L205 127 L205 123 L202 123 L202 125 L198 121 Z" fill="#FFFFFF"/>
+
+  <!-- Sound waves animation -->
+  <circle cx="210" cy="125" r="8" fill="none" stroke="#007AFF" stroke-width="1" opacity="0.6"/>
+  <circle cx="210" cy="125" r="12" fill="none" stroke="#007AFF" stroke-width="1" opacity="0.3"/>
+
+  <!-- Front Content -->
+  <text x="30" y="160" font-family="SF Pro Display, -apple-system, sans-serif" font-size="16" font-weight="500" fill="#000000">What is the structure of DNA?</text>
+
+  <!-- Image -->
+  <rect x="30" y="175" width="80" height="60" rx="8" fill="#E5E5EA"/>
+  <circle cx="70" cy="205" r="12" fill="#FFFFFF"/>
+  <text x="65" y="210" font-family="SF Pro Display, -apple-system, sans-serif" font-size="10" fill="#8E8E93">🧬</text>
+
+  <!-- Currently Playing Indicator -->
+  <rect x="25" y="243" width="200" height="6" rx="3" fill="#E5E5EA"/>
+  <rect x="25" y="243" width="120" height="6" rx="3" fill="#007AFF"/>
+  <circle cx="145" cy="246" r="4" fill="#007AFF"/>
+
+  <!-- Divider -->
+  <rect x="20" y="273" width="210" height="1" fill="#E5E5EA"/>
+
+  <!-- Back Side -->
+  <rect x="15" y="283" width="220" height="150" rx="12" fill="#007AFF" fill-opacity="0.1"/>
+
+  <!-- Back Header -->
+  <rect x="25" y="293" width="200" height="30" fill="transparent"/>
+  <text x="30" y="310" font-family="SF Pro Display, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#007AFF">Back</text>
+
+  <!-- TTS Button -->
+  <circle cx="200" cy="305" r="12" fill="#E5E5EA"/>
+  <path d="M195 301 L195 309 L198 309 L202 305 L202 307 L205 307 L205 303 L202 303 L202 305 L198 301 Z" fill="#8E8E93"/>
+
+  <!-- Back Content -->
+  <text x="30" y="340" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#000000">DNA has a double helix structure</text>
+  <text x="30" y="360" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#000000">composed of two antiparallel</text>
+  <text x="30" y="380" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#000000">strands connected by hydrogen</text>
+  <text x="30" y="400" font-family="SF Pro Display, -apple-system, sans-serif" font-size="14" fill="#000000">bonds between base pairs.</text>
+
+  <!-- TTS Controls -->
+  <rect x="15" y="453" width="220" height="30" rx="15" fill="#FFFFFF"/>
+  <text x="25" y="471" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" fill="#8E8E93">🔊 Playing: "What is the structure of DNA?"</text>
+
+  <!-- Tab Bar -->
+  <rect x="5" y="492" width="240" height="44" fill="#F2F2F7"/>
+  <rect x="5" y="492" width="240" height="1" fill="#C6C6C8"/>
+  <text x="120" y="520" font-family="SF Pro Display, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#007AFF" text-anchor="middle">Note</text>
+</svg>

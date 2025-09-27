@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Flash Notes - User Guide</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/guide.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="guide-header">
+        <div class="container">
+            <div class="header-content">
+                <h1>Simple Flash Notes User Guide</h1>
+                <p>Complete guide to all features and functions</p>
+                <div class="device-switcher">
+                    <button class="device-btn active" data-device="iphone">iPhone</button>
+                    <button class="device-btn" data-device="ipad">iPad</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Search Bar -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-box">
+                <input type="text" id="guide-search" placeholder="Search functions and features...">
+                <span class="search-icon">🔍</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Table of Contents -->
+    <section class="toc-section">
+        <div class="container">
+            <div class="toc">
+                <h2>Table of Contents</h2>
+                <div class="toc-grid">
+                    <div class="toc-category">
+                        <h3>Getting Started</h3>
+                        <a href="#first-folder">Creating Your First Folder</a>
+                        <a href="#first-note">Creating Your First Note</a>
+                        <a href="#navigation">App Navigation</a>
+                    </div>
+                    <div class="toc-category">
+                        <h3>Note Management</h3>
+                        <a href="#note-creation">Creating Notes</a>
+                        <a href="#note-editing">Editing Notes</a>
+                        <a href="#adding-images">Adding Images</a>
+                        <a href="#note-colors">Note Colors</a>
+                    </div>
+                    <div class="toc-category">
+                        <h3>Organization</h3>
+                        <a href="#folder-management">Folder Management</a>
+                        <a href="#folder-hierarchy">Folder Hierarchy</a>
+                        <a href="#search-function">Search Function</a>
+                        <a href="#reordering">Reordering Items</a>
+                    </div>
+                    <div class="toc-category">
+                        <h3>Study Features</h3>
+                        <a href="#study-modes">Study Modes</a>
+                        <a href="#practice-mode">Practice Mode</a>
+                        <a href="#test-mode">Test Mode</a>
+                        <a href="#study-stats">Study Statistics</a>
+                    </div>
+                    <div class="toc-category">
+                        <h3>Audio & Accessibility</h3>
+                        <a href="#text-to-speech">Text-to-Speech</a>
+                        <a href="#tts-settings">TTS Settings</a>
+                        <a href="#voice-selection">Voice Selection</a>
+                    </div>
+                    <div class="toc-category">
+                        <h3>Sync & Sharing</h3>
+                        <a href="#cloudkit-sync">CloudKit Sync</a>
+                        <a href="#export-import">Export & Import</a>
+                        <a href="#airdrop-sharing">AirDrop Sharing</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Guide Content -->
+    <main class="guide-content">
+        <div class="container">
+
+            <!-- Getting Started -->
+            <section class="guide-section" id="getting-started">
+                <h2 class="section-title">Getting Started</h2>
+
+                <div class="function-item" id="first-folder">
+                    <div class="function-header">
+                        <h3 class="function-title">Creating Your First Folder</h3>
+                        <span class="function-icon">📁</span>
+                    </div>
+                    <div class="function-content">
+                        <div class="function-text">
+                            <p class="function-description">Folders help you organize your flash cards by subject, topic, or any system that works for you.</p>
+                            <div class="steps">
+                                <h4>Steps:</h4>
+                                <ol>
+                                    <li>Tap the <strong>+</strong> button in the top toolbar</li>
+                                    <li>Select <strong>"New Folder"</strong> from the menu</li>
+                                    <li>Enter a name for your folder</li>
+                                    <li>Choose a color and icon (optional)</li>
+                                    <li>Tap <strong>"Create"</strong> to save</li>
+                                </ol>
+                            </div>
+                            <div class="tips">
+                                <h4>Tips:</h4>
+                                <ul>
+                                    <li>Use descriptive names like "Biology Chapter 5" or "Spanish Vocabulary"</li>
+                                    <li>Color-code subjects for quick visual identification</li>
+                                    <li>Icons help distinguish between different types of content</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="function-screenshots">
+                            <div class="screenshot-device iphone active">
+                                <!-- iPhone: Folder creation screen -->
+                                <img src="assets/images/iphone/function-first-folder.svg" alt="Creating first folder on iPhone">
+                                <p class="screenshot-caption">iPhone: Folder creation interface</p>
+                            </div>
+                            <div class="screenshot-device ipad">
+                                <!-- iPad: Folder creation in split view -->
+                                <img src="assets/images/ipad/function-first-folder.svg" alt="Creating first folder on iPad">
+                                <p class="screenshot-caption">iPad: Folder creation interface</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="function-item" id="first-note">
+                    <div class="function-header">
+                        <h3 class="function-title">Creating Your First Note</h3>
+                        <span class="function-icon">📝</span>
+                    </div>
+                    <div class="function-content">
+                        <div class="function-text">
+                            <p class="function-description">Notes are the core of your flash cards, with separate front and back content for effective study.</p>
+                            <div class="steps">
+                                <h4>Steps:</h4>
+                                <ol>
+                                    <li>Open a folder by tapping on it</li>
+                                    <li>Tap the <strong>+</strong> button</li>
+                                    <li>Select <strong>"New Note"</strong></li>
+                                    <li>Add content to the front side (question/prompt)</li>
+                                    <li>Add content to the back side (answer/explanation)</li>
+                                    <li>Tap <strong>"Save"</strong> when finished</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="function-screenshots">
+                            <div class="screenshot-device iphone active">
+                                <!-- iPhone: Note creation/editing screen -->
+                                <img src="assets/images/iphone/function-first-note.svg" alt="Creating first note on iPhone">
+                                <p class="screenshot-caption">iPhone: Note editing interface</p>
+                            </div>
+                            <div class="screenshot-device ipad">
+                                <!-- iPad: Note creation in detail view -->
+                                <img src="assets/images/ipad/function-first-note.svg" alt="Creating first note on iPad">
+                                <p class="screenshot-caption">iPad: Note editing interface</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="function-item" id="navigation">
+                    <div class="function-header">
+                        <h3 class="function-title">App Navigation</h3>
+                        <span class="function-icon">🧭</span>
+                    </div>
+                    <div class="function-content">
+                        <div class="function-text">
+                            <p class="function-description">Understanding the app's navigation will help you move efficiently between folders and notes.</p>
+                            <div class="navigation-features">
+                                <h4>iPhone Navigation:</h4>
+                                <ul>
+                                    <li><strong>Main List:</strong> Shows all your folders and search</li>
+                                    <li><strong>Folder View:</strong> Displays notes within a selected folder</li>
+                                    <li><strong>Note Detail:</strong> Full view of a single note with navigation buttons</li>
+                                    <li><strong>Back Button:</strong> Returns to previous screen</li>
+                                </ul>
+
+                                <h4>iPad Navigation:</h4>
+                                <ul>
+                                    <li><strong>Sidebar:</strong> Always visible folder list on the left</li>
+                                    <li><strong>Detail View:</strong> Main content area on the right</li>
+                                    <li><strong>Split View:</strong> Work with folders and notes simultaneously</li>
+                                    <li><strong>Tap Anywhere:</strong> Select folders directly from sidebar</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="function-screenshots">
+                            <div class="screenshot-device iphone active">
+                                <!-- iPhone: Main navigation showing folder list -->
+                                <img src="assets/images/iphone/function-navigation.svg" alt="iPhone navigation">
+                                <p class="screenshot-caption">iPhone: Main folder list view</p>
+                            </div>
+                            <div class="screenshot-device ipad">
+                                <!-- iPad: Split view navigation -->
+                                <img src="assets/images/ipad/function-navigation.svg" alt="iPad navigation">
+                                <p class="screenshot-caption">iPad: Split view navigation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Note Management -->
+            <section class="guide-section" id="note-management">
+                <h2 class="section-title">Note Management</h2>
+
+                <div class="function-item" id="note-creation">
+                    <div class="function-header">
+                        <h3 class="function-title">Creating Notes</h3>
+                        <span class="function-icon">✏️</span>
+                    </div>
+                    <div class="function-content">
+                        <div class="function-text">
+                            <p class="function-description">Create effective flash cards with text and image content on both sides.</p>
+                            <div class="creation-details">
+                                <h4>Note Structure:</h4>
+                                <ul>
+                                    <li><strong>Front Side:</strong> Your question, prompt, or term</li>
+                                    <li><strong>Back Side:</strong> The answer, definition, or explanation</li>
+                                    <li><strong>Images:</strong> Add visual content to either side</li>
+                                    <li><strong>Auto-save:</strong> Changes are saved automatically</li>
+                                </ul>
+
+                                <h4>Best Practices:</h4>
+                                <ul>
+                                    <li>Keep questions concise and clear</li>
+                                    <li>Use images to reinforce learning</li>
+                                    <li>Make answers complete but not overly complex</li>
+                                    <li>Test different question formats</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="function-screenshots">
+                            <div class="screenshot-device iphone active">
+                                <!-- iPhone: Note creation interface -->
+                                <img src="assets/images/iphone/function-note-creation.svg" alt="Note creation on iPhone">
+                                <p class="screenshot-caption">iPhone: Creating a new note</p>
+                            </div>
+                            <div class="screenshot-device ipad">
+                                <!-- iPad: Note creation with larger editing area -->
+                                <img src="assets/images/ipad/function-note-creation.svg" alt="Note creation on iPad">
+                                <p class="screenshot-caption">iPad: Creating a new note</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="function-item" id="adding-images">
+                    <div class="function-header">
+                        <h3 class="function-title">Adding Images</h3>
+                        <span class="function-icon">📷</span>
+                    </div>
+                    <div class="function-content">
+                        <div class="function-text">
+                            <p class="function-description">Enhance your flash cards with photos, diagrams, and visual content.</p>
+                            <div class="steps">
+                                <h4>To Add an Image:</h4>
+                                <ol>
+                                    <li>While editing a note, tap <strong>"Add Image"</strong> on the front or back side</li>
+                                    <li>Choose <strong>"Camera"</strong> to take a new photo or <strong>"Photo Library"</strong> to select existing</li>
+                                    <li>For camera: Take photo and tap <strong>"Use Photo"</strong></li>
+                                    <li>For library: Browse and select your image</li>
+                                    <li>Image appears alongside your text content</li>
+                                </ol>
+                            </div>
+                            <div class="tips">
+                                <h4>Image Tips:</h4>
+                                <ul>
+                                    <li>Images work great for diagrams, charts, and visual references</li>
+                                    <li>Take photos of textbook pages or handwritten notes</li>
+                                    <li>Tap any image to view it full-screen</li>
+                                    <li>Delete images by tapping the X in edit mode</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="function-screenshots">
+                            <div class="screenshot-device iphone active">
+                                <!-- iPhone: Image picker options -->
+                                <img src="assets/images/iphone/function-adding-images.svg" alt="Adding images on iPhone">
+                                <p class="screenshot-caption">iPhone: Adding images to notes</p>
+                            </div>
+                            <div class="screenshot-device ipad">
+                                <!-- iPad: Image editing interface -->
+                                <img src="assets/images/ipad/function-adding-images.svg" alt="Adding images on iPad">
+                                <p class="screenshot-caption">iPad: Adding images to notes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Organization -->
+            <section class="guide-section" id="organization">
+                <h2 class="section-title">Organization</h2>
+
+                <div class="function-item" id="folder-management">
+                    <div class="function-header">
+                        <h3 class="function-title">Folder Management</h3>
+                        <span class="function-icon">📂</span>
+                    </div>
+                    <div class="function-content">
+                        <div class="function-text">
+                            <p class="function-description">Organize your study materials with folders, colors, and hierarchical structure.</p>
+                            <div class="management-features">
+                                <h4>Folder Actions:</h4>
+                                <ul>
+                                    <li><strong>Create:</strong> Tap + button and select "New Folder"</li>
+                                    <li><strong>Edit:</strong> Swipe left on folder and tap pencil icon</li>
+                                    <li><strong>Delete:</strong> Swipe left on folder and tap trash icon</li>
+                                    <li><strong>Reorder:</strong> Drag folders up or down in the list</li>
+                                </ul>
+
+                                <h4>Customization Options:</h4>
+                                <ul>
+                                    <li><strong>Name:</strong> Descriptive titles for easy identification</li>
+                                    <li><strong>Color:</strong> 10 preset colors for visual organization</li>
+                                    <li><strong>Icon:</strong> Choose from SF Symbols or emojis</li>
+                                    <li><strong>Parent Folder:</strong> Create nested structures</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="function-screenshots">
+                            <div class="screenshot-device iphone active">
+                                <!-- iPhone: Folder management interface -->
+                                <img src="assets/images/iphone/function-folder-management.svg" alt="Folder management on iPhone">
+                                <p class="screenshot-caption">iPhone: Managing folders</p>
+                            </div>
+                            <div class="screenshot-device ipad">
+                                <!-- iPad: Folder management in sidebar -->
+                                <img src="assets/images/ipad/function-folder-management.svg" alt="Folder management on iPad">
+                                <p class="screenshot-caption">iPad: Managing folders</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="function-item" id="search-function">
+                    <div class="function-header">
+                        <h3 class="function-title">Search Function</h3>
+                        <span class="function-icon">🔍</span>
+                    </div>
+                    <div class="function-content">
+                        <div class="function-text">
+                            <p class="function-description">Quickly find any note or folder with powerful real-time search.</p>
+                            <div class="search-details">
+                                <h4>How Search Works:</h4>
+                                <ul>
+                                    <li><strong>Real-time:</strong> Results appear as you type</li>
+                                    <li><strong>All Content:</strong> Searches folder names, note text, and content</li>
+                                    <li><strong>Front & Back:</strong> Searches both sides of every note</li>
+                                    <li><strong>Case Insensitive:</strong> Finds matches regardless of capitalization</li>
+                                </ul>
+
+                                <h4>Search Tips:</h4>
+                                <ul>
+                                    <li>Use partial words to find multiple matches</li>
+                                    <li>Search for concepts, not just exact phrases</li>
+                                    <li>Clear search to return to full folder view</li>
+                                    <li>Search works across all folders simultaneously</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="function-screenshots">
+                            <div class="screenshot-device iphone active">
+                                <!-- iPhone: Search interface with results -->
+                                <img src="assets/images/iphone/function-search.svg" alt="Search function on iPhone">
+                                <p class="screenshot-caption">iPhone: Search results</p>
+                            </div>
+                            <div class="screenshot-device ipad">
+                                <!-- iPad: Search in sidebar -->
+                                <img src="assets/images/ipad/function-search.svg" alt="Search function on iPad">
+                                <p class="screenshot-caption">iPad: Search results</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Study Features -->
+            <section class="guide-section" id="study-features">
+                <h2 class="section-title">Study Features</h2>
+
+                <div class="function-item" id="study-modes">
+                    <div class="function-header">
+                        <h3 class="function-title">Study Modes</h3>
+                        <span class="function-icon">🎓</span>
+                    </div>
+                    <div class="function-content">
+                        <div class="function-text">
+                            <p class="function-description">Two distinct study modes designed for different learning objectives.</p>
+                            <div class="mode-comparison">
+                                <h4>Practice Mode:</h4>
+                                <ul>
+                                    <li>Shows both question and answer simultaneously</li>
+                                    <li>Perfect for reviewing and reinforcing knowledge</li>
+                                    <li>Navigate freely between notes</li>
+                                    <li>No time pressure or scoring</li>
+                                </ul>
+
+                                <h4>Test Mode:</h4>
+                                <ul>
+                                    <li>Shows question first, reveal answer to self-assess</li>
+                                    <li>Timer challenges with 4 difficulty levels</li>
+                                    <li>Track "I Remember" vs "Don't Remember"</li>
+                                    <li>Detailed performance statistics</li>
+                                </ul>
+
+                                <h4>Starting a Study Session:</h4>
+                                <ol>
+                                    <li>Open any folder with notes</li>
+                                    <li>Tap the <strong>"Study"</strong> button</li>
+                                    <li>Select Practice or Test mode</li>
+                                    <li>For Test mode: Choose timer difficulty</li>
+                                    <li>Begin studying!</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="function-screenshots">
+                            <div class="screenshot-device iphone active">
+                                <!-- iPhone: Study mode selection screen -->
+                                <img src="assets/images/iphone/function-study-modes.svg" alt="Study modes on iPhone">
+                                <p class="screenshot-caption">iPhone: Choosing study mode</p>
+                            </div>
+                            <div class="screenshot-device ipad">
+                                <!-- iPad: Study mode interface -->
+                                <img src="assets/images/ipad/function-study-modes.svg" alt="Study modes on iPad">
+                                <p class="screenshot-caption">iPad: Study mode interface</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="function-item" id="test-mode">
+                    <div class="function-header">
+                        <h3 class="function-title">Test Mode Details</h3>
+                        <span class="function-icon">⏱️</span>
+                    </div>
+                    <div class="function-content">
+                        <div class="function-text">
+                            <p class="function-description">Challenge yourself with timed quizzes and detailed performance tracking.</p>
+                            <div class="test-details">
+                                <h4>Timer Difficulties:</h4>
+                                <ul>
+                                    <li><strong>Easy:</strong> 30 seconds per card</li>
+                                    <li><strong>Medium:</strong> 20 seconds per card</li>
+                                    <li><strong>Normal:</strong> 10 seconds per card</li>
+                                    <li><strong>Hard:</strong> 5 seconds per card</li>
+                                </ul>
+
+                                <h4>Test Flow:</h4>
+                                <ol>
+                                    <li>Timer starts when note appears</li>
+                                    <li>Read the question/front content</li>
+                                    <li>Think of your answer</li>
+                                    <li>Tap "Reveal Answer" (or wait for timer)</li>
+                                    <li>Compare with correct answer</li>
+                                    <li>Tap "I Remember" or "Don't Remember"</li>
+                                    <li>Automatic progression to next note</li>
+                                </ol>
+
+                                <h4>Performance Tracking:</h4>
+                                <ul>
+                                    <li>Success rate percentage</li>
+                                    <li>Notes marked for review</li>
+                                    <li>Time-based performance metrics</li>
+                                    <li>Progress visualization with charts</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="function-screenshots">
+                            <div class="screenshot-device iphone active">
+                                <!-- iPhone: Test mode interface with timer -->
+                                <img src="assets/images/iphone/function-test-mode.svg" alt="Test mode on iPhone">
+                                <p class="screenshot-caption">iPhone: Test mode with timer</p>
+                            </div>
+                            <div class="screenshot-device ipad">
+                                <!-- iPad: Test mode with results -->
+                                <img src="assets/images/ipad/function-test-mode.svg" alt="Test mode on iPad">
+                                <p class="screenshot-caption">iPad: Test mode results</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="function-item" id="study-stats">
+                    <div class="function-header">
+                        <h3 class="function-title">Study Statistics</h3>
+                        <span class="function-icon">📊</span>
+                    </div>
+                    <div class="function-content">
+                        <div class="function-text">
+                            <p class="function-description">Track your learning progress with detailed statistics for each note and folder.</p>
+                            <div class="stats-details">
+                                <h4>Individual Note Stats:</h4>
+                                <ul>
+                                    <li><strong>Times Studied:</strong> How often you've reviewed this note</li>
+                                    <li><strong>Last Studied:</strong> When you last encountered this note</li>
+                                    <li><strong>Confidence Level:</strong> 1-5 scale based on your performance</li>
+                                    <li><strong>Review Flag:</strong> Marked when you need to study more</li>
+                                </ul>
+
+                                <h4>Folder-Level Statistics:</h4>
+                                <ul>
+                                    <li><strong>Total Study Sessions:</strong> Across all notes in folder</li>
+                                    <li><strong>Average Confidence:</strong> Overall mastery level</li>
+                                    <li><strong>Notes Needing Review:</strong> Count of flagged notes</li>
+                                    <li><strong>Progress Tracking:</strong> Improvement over time</li>
+                                </ul>
+
+                                <h4>Accessing Statistics:</h4>
+                                <ul>
+                                    <li>View in note detail with "Show Stats" button</li>
+                                    <li>See folder overview in folder management</li>
+                                    <li>Review after completing test sessions</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="function-screenshots">
+                            <div class="screenshot-device iphone active">
+                                <!-- iPhone: Study statistics view -->
+                                <img src="assets/images/iphone/function-study-stats.svg" alt="Study statistics on iPhone">
+                                <p class="screenshot-caption">iPhone: Study statistics</p>
+                            </div>
+                            <div class="screenshot-device ipad">
+                                <!-- iPad: Detailed stats view -->
+                                <img src="assets/images/ipad/function-study-stats.svg" alt="Study statistics on iPad">
+                                <p class="screenshot-caption">iPad: Detailed statistics</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Audio & Accessibility -->
+            <section class="guide-section" id="audio-accessibility">
+                <h2 class="section-title">Audio & Accessibility</h2>
+
+                <div class="function-item" id="text-to-speech">
+                    <div class="function-header">
+                        <h3 class="function-title">Text-to-Speech</h3>
+                        <span class="function-icon">🔊</span>
+                    </div>
+                    <div class="function-content">
+                        <div class="function-text">
+                            <p class="function-description">Listen to your flash cards read aloud with high-quality text-to-speech.</p>
+                            <div class="tts-features">
+                                <h4>How to Use TTS:</h4>
+                                <ol>
+                                    <li>Look for the <strong>speaker icon</strong> next to text content</li>
+                                    <li>Tap to start reading the text aloud</li>
+                                    <li>Tap again to pause/resume</li>
+                                    <li>Audio stops automatically when changing notes</li>
+                                </ol>
+
+                                <h4>Where TTS is Available:</h4>
+                                <ul>
+                                    <li><strong>Note Detail View:</strong> Both front and back content</li>
+                                    <li><strong>Study Modes:</strong> Practice and test modes</li>
+                                    <li><strong>Individual Sides:</strong> Play front or back separately</li>
+                                </ul>
+
+                                <h4>Benefits:</h4>
+                                <ul>
+                                    <li>Great for auditory learners</li>
+                                    <li>Enables hands-free studying</li>
+                                    <li>Helps with pronunciation</li>
+                                    <li>Useful while multitasking</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="function-screenshots">
+                            <div class="screenshot-device iphone active">
+                                <!-- iPhone: TTS controls visible on note -->
+                                <img src="assets/images/iphone/function-text-to-speech.svg" alt="Text-to-speech on iPhone">
+                                <p class="screenshot-caption">iPhone: Text-to-speech controls</p>
+                            </div>
+                            <div class="screenshot-device ipad">
+                                <!-- iPad: TTS in study mode -->
+                                <img src="assets/images/ipad/function-text-to-speech.svg" alt="Text-to-speech on iPad">
+                                <p class="screenshot-caption">iPad: TTS in study mode</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="function-item" id="tts-settings">
+                    <div class="function-header">
+                        <h3 class="function-title">TTS Settings</h3>
+                        <span class="function-icon">⚙️</span>
+                    </div>
+                    <div class="function-content">
+                        <div class="function-text">
+                            <p class="function-description">Customize text-to-speech voice, speed, and other audio preferences.</p>
+                            <div class="settings-details">
+                                <h4>Accessing TTS Settings:</h4>
+                                <ol>
+                                    <li>Tap the <strong>+</strong> button in main toolbar</li>
+                                    <li>Select <strong>"TTS Settings"</strong> from menu</li>
+                                    <li>Adjust settings to your preference</li>
+                                    <li>Use <strong>"Test Voice"</strong> to preview changes</li>
+                                </ol>
+
+                                <h4>Available Settings:</h4>
+                                <ul>
+                                    <li><strong>Voice Selection:</strong> Choose from available system voices</li>
+                                    <li><strong>Speech Rate:</strong> Adjust reading speed (slow to fast)</li>
+                                    <li><strong>Pitch:</strong> Control voice pitch (low to high)</li>
+                                    <li><strong>Volume:</strong> Set audio volume level</li>
+                                </ul>
+
+                                <h4>Voice Options:</h4>
+                                <ul>
+                                    <li>Multiple English voices available</li>
+                                    <li>Different accents and voice qualities</li>
+                                    <li>System voices are high-quality and natural</li>
+                                    <li>Settings persist across app sessions</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="function-screenshots">
+                            <div class="screenshot-device iphone active">
+                                <!-- iPhone: TTS settings screen -->
+                                <img src="assets/images/iphone/function-tts-settings.svg" alt="TTS settings on iPhone">
+                                <p class="screenshot-caption">iPhone: Text-to-speech settings</p>
+                            </div>
+                            <div class="screenshot-device ipad">
+                                <!-- iPad: TTS settings with larger interface -->
+                                <img src="assets/images/ipad/function-tts-settings.svg" alt="TTS settings on iPad">
+                                <p class="screenshot-caption">iPad: Text-to-speech settings</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sync & Sharing -->
+            <section class="guide-section" id="sync-sharing">
+                <h2 class="section-title">Sync & Sharing</h2>
+
+                <div class="function-item" id="cloudkit-sync">
+                    <div class="function-header">
+                        <h3 class="function-title">CloudKit Sync</h3>
+                        <span class="function-icon">☁️</span>
+                    </div>
+                    <div class="function-content">
+                        <div class="function-text">
+                            <p class="function-description">Keep your flash cards synchronized across all your Apple devices automatically.</p>
+                            <div class="sync-details">
+                                <h4>How CloudKit Sync Works:</h4>
+                                <ul>
+                                    <li><strong>Automatic:</strong> Syncs in background when connected to internet</li>
+                                    <li><strong>Cross-Device:</strong> iPhone, iPad, and other iOS devices</li>
+                                    <li><strong>Real-time:</strong> Changes appear on other devices within minutes</li>
+                                    <li><strong>Offline-first:</strong> Works perfectly without internet connection</li>
+                                </ul>
+
+                                <h4>Requirements:</h4>
+                                <ul>
+                                    <li>Same Apple ID on all devices</li>
+                                    <li>iCloud enabled in iOS Settings</li>
+                                    <li>Simple Flash Notes allowed in iCloud settings</li>
+                                    <li>Internet connection for sync</li>
+                                </ul>
+
+                                <h4>Checking Sync Status:</h4>
+                                <ol>
+                                    <li>Tap <strong>+</strong> button in toolbar</li>
+                                    <li>Select <strong>"iCloud Sync"</strong></li>
+                                    <li>View current sync status</li>
+                                    <li>Troubleshoot connection issues if needed</li>
+                                </ol>
+
+                                <h4>Troubleshooting:</h4>
+                                <ul>
+                                    <li>Check internet connection</li>
+                                    <li>Verify iCloud account is signed in</li>
+                                    <li>Ensure app has iCloud permissions</li>
+                                    <li>Try refreshing sync status</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="function-screenshots">
+                            <div class="screenshot-device iphone active">
+                                <!-- iPhone: CloudKit sync status screen -->
+                                <img src="assets/images/iphone/function-cloudkit-sync.svg" alt="CloudKit sync on iPhone">
+                                <p class="screenshot-caption">iPhone: CloudKit sync settings</p>
+                            </div>
+                            <div class="screenshot-device ipad">
+                                <!-- iPad: Sync status and troubleshooting -->
+                                <img src="assets/images/ipad/function-cloudkit-sync.svg" alt="CloudKit sync on iPad">
+                                <p class="screenshot-caption">iPad: CloudKit sync settings</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="function-item" id="airdrop-sharing">
+                    <div class="function-header">
+                        <h3 class="function-title">AirDrop Sharing</h3>
+                        <span class="function-icon">📤</span>
+                    </div>
+                    <div class="function-content">
+                        <div class="function-text">
+                            <p class="function-description">Share entire folders with friends and study groups using AirDrop.</p>
+                            <div class="sharing-details">
+                                <h4>To Share a Folder:</h4>
+                                <ol>
+                                    <li>Open the folder you want to share</li>
+                                    <li>Tap the <strong>share button</strong> (square with arrow)</li>
+                                    <li>Select <strong>AirDrop</strong> from the share sheet</li>
+                                    <li>Choose the nearby device to share with</li>
+                                    <li>Recipient gets a .simpleflashnotes file</li>
+                                </ol>
+
+                                <h4>What Gets Shared:</h4>
+                                <ul>
+                                    <li><strong>All Notes:</strong> Front and back content, including images</li>
+                                    <li><strong>Folder Structure:</strong> Name, color, and icon</li>
+                                    <li><strong>Subfolders:</strong> Complete hierarchy is preserved</li>
+                                    <li><strong>Metadata:</strong> Creation dates and organization</li>
+                                </ul>
+
+                                <h4>Receiving Shared Folders:</h4>
+                                <ol>
+                                    <li>Accept the AirDrop transfer</li>
+                                    <li>Tap the .simpleflashnotes file</li>
+                                    <li>Choose "Open in Simple Flash Notes"</li>
+                                    <li>Folder imports automatically</li>
+                                    <li>Access your new content immediately</li>
+                                </ol>
+
+                                <h4>Tips for Sharing:</h4>
+                                <ul>
+                                    <li>Great for study groups and collaboration</li>
+                                    <li>Share before exams for group preparation</li>
+                                    <li>Create master sets to distribute to classmates</li>
+                                    <li>Backup important folders by sharing to yourself</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="function-screenshots">
+                            <div class="screenshot-device iphone active">
+                                <!-- iPhone: Share sheet with AirDrop -->
+                                <img src="assets/images/iphone/function-airdrop-sharing.svg" alt="AirDrop sharing on iPhone">
+                                <p class="screenshot-caption">iPhone: Sharing via AirDrop</p>
+                            </div>
+                            <div class="screenshot-device ipad">
+                                <!-- iPad: AirDrop interface -->
+                                <img src="assets/images/ipad/function-airdrop-sharing.svg" alt="AirDrop sharing on iPad">
+                                <p class="screenshot-caption">iPad: Sharing via AirDrop</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQ Section -->
+            <section class="faq-section" id="faq">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3 class="faq-question">How many notes can I create?</h3>
+                        <p class="faq-answer">There's no limit! Create as many folders and notes as you need. The app is designed to handle large collections efficiently.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3 class="faq-question">Does the app work offline?</h3>
+                        <p class="faq-answer">Yes! All features work completely offline. CloudKit sync happens automatically when you're back online.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3 class="faq-question">Can I import from other flash card apps?</h3>
+                        <p class="faq-answer">Currently, the app supports importing .simpleflashnotes files shared from other users. We're exploring additional import formats.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3 class="faq-question">Is there a subscription fee?</h3>
+                        <p class="faq-answer">No! Simple Flash Notes is a one-time purchase with no subscriptions or hidden fees. All features are included.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3 class="faq-question">What image formats are supported?</h3>
+                        <p class="faq-answer">The app supports JPEG, PNG, and HEIC formats. Images are automatically optimized for storage and performance.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3 class="faq-question">How do I backup my notes?</h3>
+                        <p class="faq-answer">Your notes are automatically backed up via iCloud sync. You can also share folders to yourself via AirDrop as an additional backup method.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Support -->
+            <section class="support-section" id="support">
+                <div class="support-content">
+                    <h2>Need More Help?</h2>
+                    <p>Can't find what you're looking for? We're here to help!</p>
+                    <div class="support-options">
+                        <a href="mailto:support@simpleflashnotes.com" class="support-button">
+                            <span class="support-icon">📧</span>
+                            <span>Email Support</span>
+                        </a>
+                        <a href="#" class="support-button">
+                            <span class="support-icon">💬</span>
+                            <span>Community Forum</span>
+                        </a>
+                        <a href="index.html" class="support-button">
+                            <span class="support-icon">🏠</span>
+                            <span>Back to Home</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Simple Flash Notes</h4>
+                    <p>Beautiful, distraction-free flash cards for effective learning.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <a href="index.html">Home</a>
+                    <a href="#getting-started">Getting Started</a>
+                    <a href="#faq">FAQ</a>
+                    <a href="#support">Support</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Simple Flash Notes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/guide.js"></script>
+</body>
+</html>
